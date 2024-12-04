@@ -16,5 +16,5 @@ Download ChromeDriver
 Go to ChromeDriver and download the version matching your Chrome.
 Configure ChromeDriver
 Place the downloaded chromedriver binary in a folder within your system's PATH.
-Alternatively, specify its path directly in the scripts.(
+Alternatively, specify its path directly in the scripts.(/puker.py)
 ```
