@@ -1,4 +1,7 @@
-Step to puke 🤢 :
+![etcpasswd](https://github.com/user-attachments/assets/6c9b0f4d-c07a-4d59-a28f-f279058910e2)
+
+Step to puke 🤢
+ :
 ```
 git clone https://github.com/hidog123/Chadly_Puker.git
 ```
