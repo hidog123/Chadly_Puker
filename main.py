@@ -31,7 +31,7 @@ def run_script(script_name):
 def main():
     current_dir = os.getcwd()  # Get the current working directory
     urls_file = os.path.join(current_dir, "urls.txt")
-    chadly_puker_script = os.path.join(current_dir, "chadly_puker.py")
+    chadly_puker_script = os.path.join(current_dir, "puker.py")
     reload_script = os.path.join(current_dir, "reload.py")
 
     while not is_file_empty(urls_file):
