@@ -8,13 +8,13 @@ import time  # Import time for adding delays
 # File paths
 js_file_path = "script.js"  # Path to the JavaScript file
 url_file_path = "urls.txt"  # Path to the file containing URLs
-output_html_path = "result.html"
+output_html_path = "result7.html"
 # Function to execute JavaScript in the browser console on links
 def execute_js_in_console(js_code, url_list, delay=10):
     # Configure Chrome WebDriver
     chrome_options = Options()
     # Remove the headless mode argument to show the browser window
-    # chrome_options.add_argument("--headless")  # This line is removed for visible Chrome instance
+    #chrome_options.add_argument("--headless")  # This line is removed for visible Chrome instance
     chrome_options.add_argument("--disable-gpu")  # Disable GPU usage (optional)
     chrome_options.add_argument("--no-sandbox")  # Useful for some Linux environments
     service = Service()  # Ensure the chromedriver executable is in PATH or specify the location
@@ -22,7 +22,7 @@ def execute_js_in_console(js_code, url_list, delay=10):
     
     driver.implicitly_wait(10)  # Adjust implicit wait for Selenium interactions
     results = {}
-
+    
     # Process each URL
     for url in url_list:
         try:
@@ -106,7 +106,7 @@ html_content = """
 # Populate the table rows with data
 for url, data in output.items():
     html_content += f"<tr><td>{url}</td><td>{'<br>'.join(data) if data else 'No Data Found'}</td></tr>"
-
+    
 # Close the HTML table and body
 html_content += """
         </tbody>
