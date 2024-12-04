@@ -18,3 +18,7 @@ Configure ChromeDriver
 Place the downloaded chromedriver binary in a folder within your system's PATH.
 Alternatively, specify its path directly in the scripts.(/puker.py)
 ```
+Disclaimer
+```
+chadly_puker.py is designed to be flexible: Any payload defined in the script.js file will function as expected, providing a highly adaptable solution for various tasks. Ensure you test and validate your payloads to achieve the desired outcomes.
+```
